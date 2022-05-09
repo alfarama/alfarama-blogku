@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  repo: alfarama/tamplate-netlifycms
   branch: main
 media_folder: public/images
 public_folder: /images
