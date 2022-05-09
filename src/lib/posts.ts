@@ -21,6 +21,7 @@ export function fetchPostContent(): PostContent[] {
   }
   // Get file names under /posts
   const fileNames = fs.readdirSync(postsDirectory);
+  console.log(fileNames);
   const allPostsData = fileNames
     .filter((it) => it.endsWith(".mdx"))
     .map((fileName) => {
