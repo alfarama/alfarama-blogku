@@ -1,9 +1,10 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: dev-wanfah
 media_folder: public/images
 public_folder: /images
 publish_mode: editorial_workflow
+local_backend: true
 
 collections:
   - name: "config"
